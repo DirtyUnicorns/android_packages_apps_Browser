@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Browser security/privacy anti-tracking label -->
+    <string name="pref_security_site_whitelist_cookies">Réduire le pistage</string>
+    <!-- Browser security/privacy anti-tracking options -->
+    <string name="pref_security_site_whitelist_cookies_never">Ne jamais supprimer les cookies</string>
+    <string name="pref_security_site_whitelist_cookies_only">Supprimer les cookies de tous les sites qui ne sont pas dans ma Liste Blanche</string>
+    <string name="pref_security_site_whitelist_cookies_and_data">Supprimer aussi les cookies des bases de données stockées localement</string>
+    <!-- Browser security/privacy anti-tracking verbose checkbox label -->
+    <string name="pref_security_site_whitelist_cookies_verbose">Compteur de cookie</string>
+    <!-- Browser security/privacy anti-tracking verbose checkbox summary -->
+    <string name="pref_security_site_whitelist_cookies_verbose_summary">Affiche le nombre de cookies supprimés et restants</string>
+    <!-- Browser popup menu checkbox that allows the user to whitelist cookies from this site [CHAR LIMIT=50] -->
+    <string name="site_cookies_whitelisted">Conserver les cookies du site</string>
+    <!-- Toast to inform the user of the number of cookies deleted and remaining [CHAR LIMIT=50] -->
+    <string name="cookies_deleted_info">cookies supprimés</string>
+    <string name="cookies_remain_info">cookies restants</string>
+</resources>
